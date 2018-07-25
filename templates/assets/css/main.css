@@ -1,0 +1,40 @@
+#body {
+    background-image: url("../images/library.jpg");
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+#header {
+    padding-top: 50px;
+}
+#login-form {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 25px;
+    border-radius: 6px;
+}
+#login-form label {
+    color: #0a303a;
+}
+#top-navbar, input[type=submit], #top-navbar a{
+    background-color: rgb(155, 91, 62);
+    color: white !important;
+    font-weight: bolder;
+}
+.motivational-quote{
+    width: auto;
+    height: auto;
+    background-image: url("../images/quote.jpg");
+    opacity: inherit;
+}
+.motivational-quote-text {
+    padding: 100px;
+    font-size: 50px;
+    color: white;
+    opacity: 0.8;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    font-weight: bolder;
+    font-style: italic;
+}
+.new-books, .popular-books {
+    padding: 20px;
+}
