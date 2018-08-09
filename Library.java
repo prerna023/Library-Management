@@ -16,9 +16,9 @@ public class Library extends HttpServlet
 		{
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 	
-		Connection c = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","system","prerna");
+		Connection c = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","library","oracle");
 Statement s = c.createStatement();
-String  s1="select * from person1  where   user_name='"+email+"'  and password='"+password+"'";
+String  s1="select * from person  where   user_name='"+email+"'  and password='"+password+"'";
 //out.println(s1);
 ResultSet rs=s.executeQuery(s1);
 if(rs.next())
